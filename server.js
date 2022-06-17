@@ -17,6 +17,7 @@ app.set('view engine','ejs')
 app.use(cors());
 app.use(express.json());
 app.use(xmlparser());
+app.use('/public',express.static('public'))
 
 //connecting mongodb atlas database
 const uri = "mongodb://localhost:27017/library";
