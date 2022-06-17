@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<library>
+  <book id="628496579c40854690b4a538">
+    <author>Gambardella, Matthew</author>
+    <title>XML Developer's Guide</title>
+    <genre>Computer</genre>
+    <price>44.95</price>
+    <publish_date>2000-10-01</publish_date>
+    <description>An in-depth look at creating applications with XML.</description>
+  </book>
+  <book id="6284974205d88c3ed8f5dd2f">
+    <author>Ralls, Kim</author>
+    <title>Midnight Rain</title>
+    <genre>Fantasy</genre>
+    <price>5.95</price>
+    <publish_date>2000-12-16</publish_date>
+    <description>A former architect battles corporate zombies, an evil sorceress, and her own childhood to become queen of the world.</description>
+  </book>
+  <book id="62a94f20ce7c7fa1d09c9a8b">
+    <author>thilina aluthge</author>
+    <title>advantages of sports</title>
+    <genre>sports</genre>
+    <price>44.95</price>
+    <publish_date>2000-10-01</publish_date>
+    <description>a next level book.</description>
+  </book>
+  <book id="62ac8d5c8e792e37cc6932aa">
+    <author>thilina aluthge</author>
+    <title>avatar</title>
+    <genre>Novel</genre>
+  </book>
+  <book id="62ac8dcd2be1f405907b0ac9">
+    <author>thilina aluthge</author>
+    <title>avatar</title>
+    <genre>Novel</genre>
+  </book>
+  <book id="62ac8e2f4c9d0949c04cd635">
+    <author>thilina aluthge</author>
+    <title>avatar</title>
+    <genre>Novel</genre>
+  </book>
+  <book id="62ac933dedcc4c1a98ceff22">
+    <author>willion obe</author>
+    <title>Harry Potter</title>
+    <genre>Novel</genre>
+  </book>
+</library>
