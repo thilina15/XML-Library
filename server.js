@@ -20,7 +20,7 @@ app.use(xmlparser());
 app.use('/public',express.static('public'))
 
 //connecting mongodb atlas database
-const uri = "mongodb://localhost:27017/library";
+const uri = "mongodb://localhost:27017/RSS";
 mongoose.connect(uri, {
   useNewUrlParser: true,
   useCreateIndex: true,
@@ -39,7 +39,7 @@ const b = require('./sampleBooks.json')
 app.get('/',(req,res)=>{
   res.render('home',{books:b})
 })
-app.use("/books", bookRouter);
+app.use("/news", bookRouter);
 
 // listen to the port to start server
 app.listen(port, () => {

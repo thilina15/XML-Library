@@ -1,56 +1,38 @@
 [
     {
         "_id": "62ac8e2f4c9d0949c04cd635",
-        "author": "thilina aluthge",
+        "description": "thilina aluthge",
         "title": "avatar",
-        "genre": "Novel",
-        "createdAt": "2022-06-17T14:22:39.791Z",
-        "updatedAt": "2022-06-17T14:22:39.791Z",
-        "__v": 0
+        "date": "2022-06-17T14:22:39.791Z"
     },
     {
         "_id": "62ac933dedcc4c1a98ceff22",
-        "author": "willion obe",
+        "description": "willion obe",
         "title": "Harry Potter",
-        "genre": "Novel",
-        "createdAt": "2022-06-17T14:44:13.342Z",
-        "updatedAt": "2022-06-17T14:44:13.342Z",
-        "__v": 0
+        "date": "2022-06-17T14:44:13.342Z"
     },
     {
         "_id": "62ac8e2f4c9d0949c04cd635",
-        "author": "thilina aluthge",
+        "description": "thilina aluthge",
         "title": "avatar",
-        "genre": "Novel",
-        "createdAt": "2022-06-17T14:22:39.791Z",
-        "updatedAt": "2022-06-17T14:22:39.791Z",
-        "__v": 0
+        "date": "2022-06-17T14:22:39.791Z"
     },
     {
         "_id": "62ac933dedcc4c1a98ceff22",
-        "author": "willion obe",
+        "description": "willion obe",
         "title": "Harry Potter",
-        "genre": "Novel",
-        "createdAt": "2022-06-17T14:44:13.342Z",
-        "updatedAt": "2022-06-17T14:44:13.342Z",
-        "__v": 0
+        "date": "2022-06-17T14:44:13.342Z"
     },
     {
         "_id": "62ac8e2f4c9d0949c04cd635",
-        "author": "thilina aluthge",
+        "description": "thilina aluthge",
         "title": "avatar",
-        "genre": "Novel",
-        "createdAt": "2022-06-17T14:22:39.791Z",
-        "updatedAt": "2022-06-17T14:22:39.791Z",
-        "__v": 0
+        "date": "2022-06-17T14:22:39.791Z"
     },
     {
         "_id": "62ac933dedcc4c1a98ceff22",
-        "author": "willion obe",
+        "description": "willion obe",
         "title": "Harry Potter",
-        "genre": "Novel",
-        "createdAt": "2022-06-17T14:44:13.342Z",
-        "updatedAt": "2022-06-17T14:44:13.342Z",
-        "__v": 0
+        "date": "2022-06-17T14:44:13.342Z"
     }
 ]

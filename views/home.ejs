@@ -9,14 +9,14 @@
 </head>
 <body>
     <center>
-        <h1>Welcome to Book Gallery</h1>
+        <h1>Welcome to RRS feed</h1>
     <div class="list-inner">
         <% if(books.length!=0){ %>
             <% books.forEach((book,i)=>{ %>
              <div class="list-container">
                <h3> <u><%= book.title %></u> </h3>
-                Genre: <%= book.genre %> <br>
-                Author: <%= book.author %> <br>
+                date: <%= book.date %> <br>
+                description: <%= book.description %> <br>
                 <hr>
              </div>
             <% }) %> 

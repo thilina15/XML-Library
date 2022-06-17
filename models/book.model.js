@@ -3,7 +3,7 @@ const { Schema, Mongoose } = require("mongoose");
 
 const bookSchema = new Schema(
   {
-    author: {
+    description: {
       type: String, //data type
       required: true, //not null
     },
@@ -11,25 +11,14 @@ const bookSchema = new Schema(
       type: String, //data type
       required: true, //not null
     },
-    genre: {
+    date: {
       type: String, //data type
       required: true, //not null
     },
-    // price: {
-    //   type: String, //data type
-    //   required: true, //not null
-    // },
-    // publish_date: {
-    //   type: String, //data type
-    //   required: true, //not null
-    // },
-    // description: {
-    //   type: String, //data type
-    //   required: true, //not null
-    // },
+
   },
   { timestamps: true }
 );
 
-const Book = mongoose.model("Book", bookSchema);
+const Book = mongoose.model("News", bookSchema);
 module.exports = Book;

@@ -26,9 +26,9 @@ router.get("/", (req, res) => {
 router.post("/add", (req, res) => {
   //mapping data from request xml data
   const newBook = new Book({
-    author: req.body.book.author[0],
-    title: req.body.book.title[0],
-    genre: req.body.book.genre[0],
+    description: req.body.news.description[0],
+    title: req.body.news.title[0],
+    date: req.body.news.date[0],
   });
 
   //saving book data in mongoDB
@@ -47,12 +47,12 @@ router.post("/add", (req, res) => {
 
               //creating new book element
               xmlBookEl = {
-                $: { id: addedBook._id },
-                ...req.body.book,
+                $: { id: addedBook._id }, 
+                ...req.body.news,
               };
 
               //adding the new book element to xml
-              xmlDoc.library.book.push(xmlBookEl);
+              xmlDoc.RSS.news.push(xmlBookEl);
 
               // create a new builder object and then convert
               // our json back to xml.
