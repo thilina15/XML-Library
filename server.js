@@ -1,5 +1,3 @@
-
-
 const express = require("express");
 const cors = require("cors");
 const mongoose = require("mongoose");
@@ -20,17 +18,17 @@ app.use(xmlparser());
 app.use('/public',express.static('public'))
 
 //connecting mongodb atlas database
-const uri = "mongodb://localhost:27017/library";
-mongoose.connect(uri, {
-  useNewUrlParser: true,
-  useCreateIndex: true,
-  useUnifiedTopology: true,
-});
+// const uri = "mongodb://localhost:27017/library";
+// mongoose.connect(uri, {
+//   useNewUrlParser: true,
+//   useCreateIndex: true,
+//   useUnifiedTopology: true,
+// });
 
-const connection = mongoose.connection;
-connection.once("open", () => {
-  console.log("MongoDB connected!");
-});
+// const connection = mongoose.connection;
+// connection.once("open", () => {
+//   console.log("MongoDB connected!");
+// });
 
 //adding routes to the server
 const bookRouter = require("./routes/books"); //adding router files
