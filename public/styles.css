@@ -1,0 +1,74 @@
+.book-background {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  font-family: "Raleway";
+  grid-gap: 30px;
+}
+.background {
+  background: #ffffff;
+  padding: 2%;
+}
+.header {
+  font-size: 36px;
+  font-family: "Raleway";
+}
+.header span {
+  color: cadetblue;
+}
+.sub {
+  font-size: 9px;
+  color: #b3b1b1;
+  font-family: "Raleway";
+  letter-spacing: 2px;
+}
+.line {
+  background-color: cadetblue;
+  height: 2px;
+  width: 100%;
+  border-radius: 100px;
+  margin-top: 15px;
+  opacity: 0.2;
+}
+.books{
+    display: flex;
+}
+.books:hover{
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+}
+.image{
+    height: 150px;
+    width: 110px;
+}
+
+.book-list {
+    margin-left: 20px;
+}
+.sub-header {
+  font-size: 18px;
+  color: #3a3a3a;
+  font-family: "Raleway";
+  margin-top: 5vh;
+}
+.gray-line{
+    background-color: #3a3a3a;
+    height: 1px;
+    width: 100%;
+    border-radius: 100px;
+    margin-top: 10px;
+    opacity: 0.1;
+    margin-bottom: 5vh;
+}
+
+.topic{
+    font-family: "Raleway";
+    font-size: 18px;
+    color: cadetblue;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.content{
+    color: #8d8d8d;
+    font-size: 14px;
+}

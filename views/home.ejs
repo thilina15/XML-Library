@@ -1,33 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="/public/styles.css">
-</head>
-<body>
-    <center>
-        <h1>Welcome to Book Gallery</h1>
-    <div class="list-inner">
-        <% if(books.length!=0){ %>
-            <% books.forEach((book,i)=>{ %>
-             <div class="list-container">
-               <h3> <u><%= book.title %></u> </h3>
-                Genre: <%= book.genre %> <br>
-                Author: <%= book.author %> <br>
-                <hr>
-             </div>
-            <% }) %> 
-        <% }else{ %>
-            no books to display
-        <% } %> 
+    <link rel="stylesheet" href="/public/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="background">
+    <div>
+      <div class="header">BOOK<span>STORE</span></div>
+      <div class="sub">THE BIGGEST CHOICE ON THE WEB</div>
+      <div class="line"></div>
+      <div class="sub-header">All Products</div>
+      <div class="gray-line"></div>
+      <div class="list-inner book-background">
+        <% if(books.length!=0){ %> <% books.forEach((book,i)=>{ %>
+            <div class="books">
+                <img alt ="" src="https://shadycharacters.co.uk/wp/wp-content/uploads/2016/12/Book_IMG_1754-1-e1481474081467.jpg" class="image">
+                <div class="book-list">
+                    <div class="topic"><%= book.title %></div>
+                    <div class="content">
+                        Genre: <%= book.genre %> <br />
+                        Author: <%= book.author %> <br />
+                    </div>
+                  </div>
+            </div>
+     
+        <% }) %> <% }else{ %> no books to display <% } %>
+      </div>
     </div>
-</center>
-</body>
+  </body>
 </html>
-
-
-            
-
