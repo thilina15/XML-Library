@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <RSS>
-  <news id="628496579c40854690b4a538">
-    <date>Gambardella, Matthew</date>
-    <title>XML Developer's Guide</title>
-    <description>An in-depth look at creating applications with XML.</description>
+  <news id="62adf84e9f51b14b34fd64b2">
+    <description>covid-19 is going to come again..</description>
+    <title>COVID-19 is back</title>
+    <date>2022-06-21</date>
+  </news>
+  <news id="62adf9409f51b14b34fd64b3">
+    <description>petrol is zero</description>
+    <title>Petro</title>
+    <date>2022-06-25</date>
   </news>
 </RSS>
